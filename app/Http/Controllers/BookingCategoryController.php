@@ -20,6 +20,11 @@ class BookingCategoryController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+	 /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
     public function index()
     {
       $booking_Categories = Booking_Category::all();
